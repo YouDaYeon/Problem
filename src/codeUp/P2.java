@@ -1,4 +1,4 @@
-package sec01;
+package codeUp;
 
 public class P2 {
 
