@@ -1,9 +1,16 @@
 #Plus
-문제점 1.배열의 크기를 랜덤으로 만들고 값을 넣으려하니 오류가났다. 초기화를 못해서 인 듯.
-배열 : 처음에 크기 지정, 초기화.
+문제점 1.배열의 크기를 랜덤으로 만들고 값을 넣으려하니 오류가났다.
+배열 : 처음에 크기 지정c, 초기화.
 	-System.out.println(Arrays.toString(array));
 	-Arrays.sort(array) -> 오름차순 정렬
 ArrayList : 크기 지정X, 원하는 위치에 요소 추가/삭제/반환 가능. 
 	-System.out.println(list);
 	-제네릭 사용->타입체크 강화.
 	-list.contains( );
+	-list.add( ); / list.get( );
+	
+#Minimum
+클래스 : 속성(변수)과 기능(메서드)을 정의
+	-클래스로부터 인스턴스를 생성해야함. Solution sol = new Solution();
+	-인스턴스 변수 : 인스턴스마다 고유의 저장공간.
+	-클래스 변수 : 모든 인스턴스가 똑같은 저장공간을 공유. 바로 접근 가능. static
