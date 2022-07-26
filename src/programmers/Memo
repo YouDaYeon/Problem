@@ -6,8 +6,9 @@
 ArrayList : 크기 지정X, 원하는 위치에 요소 추가/삭제/반환 가능. 
 	-System.out.println(list);
 	-제네릭 사용->타입체크 강화.
-	-list.contains( ); / list.add( ); / list.get( );
-	-list.indexOf( ); / list.remove();
+	-list.contains( ); / list.add( ); / list.remove();
+	-list.indexOf("H"); / list.get( );
+	
 	
 #Minimum
 클래스 : 속성(변수)과 기능(메서드)을 정의
