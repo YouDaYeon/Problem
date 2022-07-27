@@ -11,3 +11,14 @@ P20
 	substring(start) -> start위치부터 끝가지
 	substring(start,end) -> start부터 end전까지
 	String[] array = str.split("-"); -> "-"기준으로 자르기
+	
+P24
+-단어 하나씩 출력 : str.charAt(index)
+
+P25
+-숫자 나누어 출력
+	int mill = (num/10000)*10000;
+	int thou = (num/1000%10)*1000;
+	int hund = (num/100%10)*100;
+	int ten = (num/10%10)*10;
+	int one = (num%10);
