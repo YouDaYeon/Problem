@@ -3,6 +3,7 @@
 배열 : 처음에 크기 지정c, 초기화.
 	-System.out.println(Arrays.toString(array));
 	-Arrays.sort(array) -> 오름차순 정렬
+	-Arrays.copyOfRange(int[] origin, int from, int to) -> from부터 to까지 복사.
 ArrayList : 크기 지정X, 원하는 위치에 요소 추가/삭제/반환 가능. 
 	-System.out.println(list);
 	-제네릭 사용->타입체크 강화.
