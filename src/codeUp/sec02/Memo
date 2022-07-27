@@ -1,0 +1,13 @@
+P15
+-정수 반올림 : Math.round()
+
+P19
+-문자열 StringTokenizer st = new StringTokenizer(ymd, ".");
+-syso("%02d",3) -> 03
+-정수로 바꾸기 : Integer.parseInt( );
+
+P20
+-문자열 자르기 : 
+	substring(start) -> start위치부터 끝가지
+	substring(start,end) -> start부터 end전까지
+	String[] array = str.split("-"); -> "-"기준으로 자르기
