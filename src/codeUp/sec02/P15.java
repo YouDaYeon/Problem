@@ -8,7 +8,7 @@ public class P15 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		float f = sc.nextFloat();
-		System.out.println(Math.round(f*100)/(float)100);
+		System.out.printf("%.2f",f);
 	}
 
 }
