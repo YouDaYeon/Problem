@@ -1,0 +1,17 @@
+package codeUp.sec04;
+
+import java.util.Scanner;
+
+public class P53 {
+//참 거짓 바꾸기
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		
+		if(a==0)
+			System.out.println(1);
+		else
+			System.out.println(0);
+	}
+
+}
