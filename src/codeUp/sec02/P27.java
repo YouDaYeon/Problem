@@ -12,5 +12,5 @@ public class P27 {
 		System.out.println(ymd[2]+"-"+ymd[1]+"-"+ymd[0]);
 //		System.out.println(date.replaceAll("\\.","-"));
 	}
-
 }
+
