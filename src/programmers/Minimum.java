@@ -26,14 +26,6 @@ class Solution1 {
         }
         return answer;
     }
-    //제일 작은 수 찾기
-    public int minimum(int[] arr) {
-    	int num=arr[0];
-    	for(int i=1;i<arr.length;i++) {
-    		if(arr[i]<num) num=arr[i];
-    	}
-    	return num;
-    }
 }
 public class Minimum {
 	public static void main(String[] args) {
